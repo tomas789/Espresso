@@ -9,6 +9,7 @@
 
 #define ptime()		util_cpu_time()
 #define print_time(t)	util_print_time(t)
+#define _strdup strdup
 
 
 #undef NO_INLINE
